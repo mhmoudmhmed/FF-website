@@ -34,10 +34,64 @@
   .service .service-text {top: 160px;right: 0%;}
   .testimonial .carousel .text-testimonial p {font-size: 30px; line-height:40px}
   .testimonial .carousel .text-testimonial p::before {font-size: 30px;}
+  .meet::before {top: 375px !important;height: 237px !important;}
   .meet .meet-text h3 {font-size: 1.4rem; line-height: 25px;}
   .meet .meet-text p {width: 69%;}
   .meet .friend-meet .special {height: 231px;}
   .meet .group .friends-img .special {height: 118px;}
+  .trial {padding: 0;}
+  .trial .trial-img {right: -26px;}
+  .trial .trial-img img {width: 80%;}
+  .trial .trial-text {top: 20%;}
+  .trial .trial-text h3 {font-size: 25px; font-weight: bold;}
+  .trial .trial-text span {font-size: 20px;}
+  .trial .trial-text p {font-size: 16px; margin-bottom: 10px;}
+  .newsletter .user-box {padding: 28px 27px 15px; width: 97%;}
+  .newsletter .user-box .user-text h3 {font-size: 22px;}
+  .footer .list li a {font-size: 13px;}
+}
+
+@media(min-width: 2560px){
+  .container {max-width: 1870px !important;}
+  .header {height: 1300px !important;}
+  .header .header-image {width: 90pc !important; right: -348px !important;}
+  .header .header-text {top: 152% !important;}
+  .header .header-text h2 {font-size: 60px !important;}
+  .header .header-text p {font-size: 30px !important;line-height: 45px !important; width: 65%;}
+  .header .header-text .btn {padding: 15px;width: 225px;font-size: 18px;}
+  .shape::after {top: 1455px;}
+  .service {height: 1575px !important;}
+  .service .service-img {left: -394px !important;width: 80pc !important;}
+  .service .service-img:after {top : 37rem !important;width: 40pc !important;height: 842px !important;}
+  .service .service-text {top: 130% !important;}
+  .service .service-text h3 {font-size: 60px}
+  .service .service-text p {font-size: 29px; margin-bottom: 35px;}
+  .text-testimonial p {
+    font-size: 54px !important;
+    line-height: 76px !important;
+    width: 70% !important;
+    font-weight: bold;
+  }
+  .meet .meet-text h3 {
+    font-size: 2.5rem;
+    line-height: 45px;
+    font-weight: bold;
+  }
+  .meet .meet-text p {
+    width: 50%;
+    margin: auto;
+    font-size: 23px;
+  }
+  .meet .friend-meet .special {height: 647px !important;}
+  .meet .group .friends-img .special {height: 344px !important}
+  .trial {height: 1400px;}
+  .trial .trial-img {right : -345px}
+  .trial .trial-img img{width : 100%}
+  .trial .trial-text {top: 122% !important;}
+  .trial .trial-text h3 {font-size: 60px}
+  .trial .trial-text span {font-size: 30px;font-weight: bold;}
+  .trial .trial-text p {font-size: 24px;}
+  .trial .trial-text .btn {padding: 15px;width: 225px;font-size: 18px;}
 }
 
 @media only screen and (max-width: 576px) {
