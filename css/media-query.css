@@ -1,5 +1,45 @@
 /*----------media query--------*/
 
+@media (min-width : 1440px) and (max-width: 1920px) {
+  .container {width: 1870px !important;}
+  .header {height: 800px !important;}
+  .header .header-text {left: 1% !important;}
+  .header .header-image {width: 55pc !important; right: -153px !important;}
+  .header .header-image .hero-image {width: 89% !important;}
+  .service {height: 700px !important;}
+  .service .service-img {width: 40pc !important; left: -178px !important;}
+  .meet .friend-meet .special {height: 386px !important;}
+  .trial {height: 880px !important;}
+  .trial .trial-img{right: -151px !important;}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {height: 580px;}
+  .header .header-image {width: 36pc;}
+  .header .header-text {top: 80% !important;}
+  .header .header-text h2 {font-size: 25px;}
+  .header .header-text p {width: 100%;font-size: 14px;}
+  .feature {height: 440px;}
+  .feature .feature-card .bottom-inner h3 {font-size: 18px;}
+  .feature .feature-card .bottom-inner p {font-size: 13px;}
+  .service {height: 630px;}
+  .service .service-img {width: 33pc; left: -51px;}
+  .service .service-text p {font-size: 15px;}
+  .service .service-img:after {
+    top: 13rem;
+    left: 29%;
+    width: 17pc;
+    height: 372px;
+  }
+  .service .service-text {top: 160px;right: 0%;}
+  .testimonial .carousel .text-testimonial p {font-size: 30px; line-height:40px}
+  .testimonial .carousel .text-testimonial p::before {font-size: 30px;}
+  .meet .meet-text h3 {font-size: 1.4rem; line-height: 25px;}
+  .meet .meet-text p {width: 69%;}
+  .meet .friend-meet .special {height: 231px;}
+  .meet .group .friends-img .special {height: 118px;}
+}
+
 @media only screen and (max-width: 576px) {
 
   /*navbar*/
